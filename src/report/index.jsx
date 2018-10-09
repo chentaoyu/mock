@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import ReportDetail from './detail';
-class App extends Component {
+import ReportDetail from '../detail';
+import './index.css';
+
+class ReportView extends Component {
+
   constructor(props) {
     super(props);
 
@@ -23,4 +24,4 @@ class App extends Component {
   }
 }
 
-export default App;
+module.exports = { ReportView };
